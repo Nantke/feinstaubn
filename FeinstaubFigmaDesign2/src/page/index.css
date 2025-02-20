@@ -1,0 +1,760 @@
+:root {
+  --default-font-family:"Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 100%;
+  height: 1193px;
+  margin: 0 auto;
+  background: #ffffff;
+  overflow: hidden;
+}
+.rectangle {
+  position: absolute;
+  width: 100%;
+  height: 91px;
+  top: -21px;
+  left: 0;
+  background: #000000;
+}
+.rectangle-1 {
+  position: absolute;
+  width: 100%;
+  height: 1212px;
+  top: 0px;
+  left: 0;
+  font-size: 0px;
+  background: rgba(255,255,255,1);
+  border: 0px solid #d9d9d9;
+  z-index: 1;
+  border-radius: 20px;
+}
+
+.air-quality {
+  display: block;
+  position: relative;
+  height: 27px;
+  margin: 30px 0 0 21px;
+  color: #1e1e1e;
+  font-family: Inter, var(--default-font-family);
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 34px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 3;
+}
+.pm-2-5 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 90%;
+  height: 34px;
+  margin: 16px 21px 0 21px;
+  color: rgba(127,127,127,1);
+  font-family: Inter, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  text-align: left;
+  z-index: 2;
+}
+.rectangle-2 {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 277px;
+  margin: 35px 0 0 0;
+  font-size: 0px;
+  background: rgba(245,245,245,1);
+  border-bottom: 1px solid rgba(0,0,0,0.3);
+  border-top: 1px solid rgba(0,0,0,0.3);
+  z-index: 5;
+  overflow: visible auto;
+}
+.date {
+  display: block;
+  position: relative;
+  height: 21px;
+  margin: 13px 0 0 21px;
+  color: rgba(0, 0, 0, 1);
+  font-family: Inter, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 13;
+}
+.poor-air-quality {
+  position: relative;
+  width: 90%;
+  height: 21px;
+  margin: 16px 0 0 21px;
+  font-family: SF Pro, var(--default-font-family);
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  text-overflow: initial;
+  white-space: nowrap;
+  z-index: 31;
+  overflow: hidden;
+
+}
+.poor {
+  position: relative;
+  color: rgba(34,34,34,1);
+  font-family: Inter, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.flex-row {
+  position: relative;
+  width: 90%;
+  height: 176px;
+  margin: 18px 0 0 21px;
+  z-index: 12;
+}
+.group {
+  position: absolute;
+  width: 45px;
+  height: 176px;
+  top: 0;
+  left: 0;
+  z-index: 12;
+}
+.health-warning {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 80%;
+  height: 106px;
+  top: 0;
+  left: 77px;
+  color: rgba(0,0,0,1);
+  font-family: "SF Pro", var(--default-font-family);
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  z-index: 11;
+}
+.flex-row-df {
+  position: relative;
+  width: 100%;
+  height: 88px;
+  margin: 1px 0 0 0;
+  z-index: 33;
+}
+.rectangle-3 {
+  position: absolute;
+  width: 50%;
+  height: 88px;
+  top: 0;
+  left: 0;
+  font-size: 0px;
+  background: rgba(245,245,245,1);
+  border-bottom: 1px solid rgba(0,0,0,0.3);
+  border-right: 1px solid rgba(0,0,0,0.3);
+  z-index: 8;
+}
+.date-4 {
+  display: block;
+  position: relative;
+  height: 21px;
+  margin: 10px 0 0 16px;
+  color: rgba(0, 0, 0, 1);
+  font-family: Inter, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 9;
+}
+
+.rectangle-5 {
+  position: absolute;
+  width: 50%;
+  height: 88px;
+  top: 0;
+  left: 50%;
+  font-size: 0px;
+  background: rgba(245,245,245,1);
+  border-bottom: 1px solid rgba(0,0,0,0.3);
+  border-left: 1px solid rgba(0,0,0,0.3);
+  z-index: 10;
+}
+.date-6 {
+  display: block;
+  position: relative;
+  height: 21px;
+  margin: 10px 0 0 21px;
+  color: rgba(0, 0, 0, 1);
+  font-family: Inter, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 35;
+}
+.flex-row-7 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 201px;
+  height: 42px;
+  margin: 1px 0 0 16px;
+  z-index: 40;
+}
+.ellipse-8 {
+  flex-shrink: 0;
+  position: relative;
+  width: 32px;
+  height: 32px;
+  background-size: cover;
+  z-index: 40;
+  border-radius: 50%;
+}
+
+.ellipse {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  margin: 6px 0 0 21px;
+  background-size: cover;
+  z-index: 36;
+  border-radius: 50%;
+}
+
+.Gut {
+  background: url(../assets/images/petrolKreis.png)
+  no-repeat center;
+  background-size: cover;
+  z-index: 36;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+}
+
+.Schlecht {
+  background: url(../assets/images/roterKreis.png)
+  no-repeat center;
+  background-size: cover;
+  z-index: 36;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+}
+
+.Mäßig {
+  background: url(../assets/images/gelberKreis.png)
+  no-repeat center;
+  background-size: cover;
+  z-index: 36;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+}
+
+.Sehr.gut {
+  background: url(../assets/images/grunerKreis.png)
+  no-repeat center;
+  background-size: cover;
+  z-index: 36;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+}
+
+.Sehr.schlecht {
+  background: url(../assets/images/dunkelRoterKreis.png)
+  no-repeat center;
+  background-size: cover;
+  z-index: 36;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+}
+
+
+
+.feinstaub-pm25 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  width: 154px;
+  height: 42px;
+  left: -10px;
+  color: #000000;
+  font-family: "SF Pro", var(--default-font-family);
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+  z-index: 32;
+}
+.feinstaub-pm25-9 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 253px;
+  height: 21px;
+  top: 31px;
+  left: 8px;
+  color: #000000;
+  font-family: "SF Pro", var(--default-font-family);
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 33;
+}
+.rectangle-a {
+  position: relative;
+  width: 100%;
+  height: 212px;
+  margin: 28px 0 0 -1px;
+  font-size: 0px;
+  background: rgba(245,245,245,1);
+  border-bottom: 1px solid rgba(0,0,0,0.3);
+  border-top: 1px solid rgba(0,0,0,0.3);
+  z-index: 6;
+  overflow: visible auto;
+}
+.weitere-sensordaten {
+  display: block;
+  position: relative;
+  height: 21px;
+  margin: 18px 0 0 22px;
+  color: rgba(0, 0, 0, 1);
+  font-family: Inter, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 7;
+}
+.heute {
+  display: block;
+  position: relative;
+  height: 21px;
+  margin: 6px 0 0 22px;
+  color: rgba(0,0,0,1);
+  font-family: Inter, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 34;
+}
+.ellipse-b {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 73px;
+  left: 20px;
+  background: url(../assets/images/cyanKreis.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 39;
+  border-radius: 50%;
+}
+.stickstoffdioxid-no2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 21px;
+  top: 77px;
+  left: 73px;
+  color: rgba(0,0,0,1);
+  font-family: "SF Pro", var(--default-font-family);
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 41;
+}
+.ellipse-c {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 115px;
+  left: 21px;
+  background: url(../assets/images/roterKreis.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 38;
+  border-radius: 50%;
+}
+.feinstaub-pm10 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 21px;
+  top: 120px;
+  left: 74px;
+  color: rgba(0,0,0,1);
+  font-family: "SF Pro", var(--default-font-family);
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 42;
+}
+.ellipse-d {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 157px;
+  left: 21px;
+  background: url(../assets/images/cyanKreis.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 37;
+  border-radius: 50%;
+}
+.ozon-o3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 21px;
+  top: 162px;
+  left: 73px;
+  color: rgba(0,0,0,1);
+  font-family: "SF Pro", var(--default-font-family);
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 43;
+}
+.bewertungstabelle-pm-tagesdurchschnitt {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 90%;
+  height: 42px;
+  margin: 28px 0 0 20px;
+  color: rgba(0,0,0,1);
+  font-family: Inter, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  text-align: left;
+  z-index: 27;
+}
+.flex-row-da {
+  position: relative;
+  width: 100%;
+  height: 32px;
+  margin: 11px 0 0 20px;
+  z-index: 28;
+}
+.ellipse-e {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 0;
+  left: 0;
+  background: url(../assets/images/dunkelRoterKreis.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 22;
+  border-radius: 50%;
+}
+.sehr-schlecht {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 21px;
+  top: 6px;
+  left: 53px;
+  color: rgba(0,0,0,1);
+  font-family: "SF Pro", var(--default-font-family);
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 28;
+}
+.greater-than-50 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 21px;
+  top: 6px;
+  left: 199px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20.574px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 17;
+}
+.flex-row-f {
+  position: relative;
+  width: 100%;
+  height: 32px;
+  margin: 11px 0 0 20px;
+  z-index: 30;
+}
+.ellipse-10 {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 0;
+  left: 0;
+  background: url(../assets/images/roterKreis.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 24;
+  border-radius: 50%;
+}
+.schlecht {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 21px;
+  top: 6px;
+  left: 53px;
+  color: rgba(0,0,0,1);
+  font-family: "SF Pro", var(--default-font-family);
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 30;
+}
+.text-15 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 21px;
+  top: 6px;
+  left: 199px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20.574px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 18;
+}
+.flex-row-bde {
+  position: relative;
+  width: 100%;
+  height: 32px;
+  margin: 11px 0 0 20px;
+  z-index: 29;
+}
+.ellipse-11 {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 0;
+  left: 0;
+  background: url(../assets/images/gelberKreis.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 25;
+  border-radius: 50%;
+}
+.moderate {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 21px;
+  top: 5px;
+  left: 53px;
+  color: rgba(0,0,0,1);
+  font-family: "SF Pro", var(--default-font-family);
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 29;
+}
+.microgram-per-cubic-meter {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 21px;
+  top: 5px;
+  left: 199px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20.574px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 19;
+}
+.flex-row-df-12 {
+  position: relative;
+  width: 100%;
+  height: 32px;
+  margin: 11px 0 0 20px;
+  z-index: 26;
+}
+.ellipse-13 {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 0;
+  left: 0;
+  background: url(../assets/images/petrolKreis.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 26;
+  border-radius: 50%;
+}
+.good {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 21px;
+  top: 6px;
+  left: 53px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20.574px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 21;
+}
+.microgram-per-cubic-meter-14 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 21px;
+  top: 6px;
+  left: 199px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20.574px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 15;
+}
+.flex-row-e {
+  position: relative;
+  width: 100%;
+  height: 32px;
+  margin: 11px 0 0 20px;
+  z-index: 23;
+}
+.ellipse-15 {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 0;
+  left: 0;
+  background: url(../assets/images/grunerKreis.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 23;
+  border-radius: 50%;
+}
+.excellent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 21px;
+  top: 7px;
+  left: 53px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20.574px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 20;
+}
+.microgram-per-cubic-meter-16 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 21px;
+  top: 7px;
+  left: 199px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20.574px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 16;
+}
