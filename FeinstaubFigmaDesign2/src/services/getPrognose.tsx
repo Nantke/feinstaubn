@@ -36,7 +36,7 @@ const getPrognose = async () => {
 
 
     try {
-        const response = await fetch(("/api/api/air_data/v3/airqualityforecast/json?station=DENI016"),
+        const response = await fetch(("https://www.umweltbundesamt.de/api/air_data/v3/airqualityforecast/json?station=DENI016"),
             {
                 method:'GET',
                 headers: {
