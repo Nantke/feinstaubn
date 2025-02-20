@@ -40,7 +40,7 @@ const getTodaysData = async () => {
 
 
     try {
-            const response = await fetch(("/api//api/air_data/v3/airquality/json?date_from="+getFormattedDates().yesterdayISO+"&date_to="+getFormattedDates().todayISO+"&station=914"),
+            const response = await fetch(("https://www.umweltbundesamt.de/api/air_data/v3/airquality/json?date_from="+getFormattedDates().yesterdayISO+"&date_to="+getFormattedDates().todayISO+"&station=914"),
              {
                  method:'GET',
                 headers: {
