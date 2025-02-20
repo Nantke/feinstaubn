@@ -1,6 +1,6 @@
 {
   "buildCommand": "vite build --config vite.config.js",
-  "outputDirectory": "FeinstaubFigmaDesign2/dist",
+  "outputDirectory": "./dist",
   "routes": [
     { "src": "/(.*)", "dest": "/index.html" }
   ]
