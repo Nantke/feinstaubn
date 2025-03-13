@@ -55,13 +55,18 @@ export default function Main() {
         <div className="flex-row-df">
           <div className="rectangle-3">
             <span className="date-4">{yesterdaysData[1]?.yesterdayDE}</span>
+            <div className="flex-row-7">
             <div className={"ellipse"}>
               <div className={yesterdaysData[0].index.trim()}></div>
             </div>
-
+            <span className="feinstaub-pm25-9">
+             Feinstaub (PM₂,₅): <br/>
+              {yesterdaysData[0].pm25} µg/m³
+          </span>
+            </div>
           </div>
           <div className="rectangle-5">
-          <span className="date-6">{prognoseData[1]?.tomorrowDE}</span>
+            <span className="date-6">{prognoseData[1]?.tomorrowDE}</span>
             <div className="flex-row-7">
               <div className={"ellipse-8"}>
                 <div className={prognoseData[0].index.trim()}></div>
@@ -71,10 +76,6 @@ export default function Main() {
               </span>
             </div>
           </div>
-          <span className="feinstaub-pm25-9">
-             Feinstaub (PM₂,₅): <br />
-            {yesterdaysData[0].pm25} µg/m³
-          </span>
         </div>
         <div className="rectangle-a">
           <span className="weitere-sensordaten">Weitere Sensordaten</span>
