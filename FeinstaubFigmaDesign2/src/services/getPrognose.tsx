@@ -36,11 +36,12 @@ const getPrognose = async () => {
 
 
     try {
-        const response = await fetch(("/api/api/air_data/v3/airqualityforecast/json?station=DENI016"),
+        const response = await fetch(("/api/air_data/v3/airqualityforecast/json?station=DENI016"),
             {
                 method:'GET',
                 headers: {
                     'Content-Type': 'application/json',
+                    "User-Agent": "Vercel-Proxy",
                 },
                 mode: "no-cors"
             });

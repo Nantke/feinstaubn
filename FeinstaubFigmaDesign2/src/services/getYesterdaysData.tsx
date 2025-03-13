@@ -44,7 +44,7 @@ const getYesterdaysData = async () => {
 
 
     try {
-        const response = await fetch(("/api/api/air_data/v3/measures/json?date_from="+getFormattedDates().thedaybeforeyesterdayISO+"&date_to="+getFormattedDates().yesterdayISO+"&station=DENI016&lang=de"),
+        const response = await fetch(("/api/air_data/v3/measures/json?date_from="+getFormattedDates().thedaybeforeyesterdayISO+"&date_to="+getFormattedDates().yesterdayISO+"&station=DENI016&lang=de"),
             {
                 method:'GET',
                 headers: {

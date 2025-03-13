@@ -10,6 +10,7 @@ export default function Main() {
   const [prognoseData, setPrognoseData] = useState([{"pm25": 0, "index":"", "description":""}])
 
   useEffect(() => {
+
     getTodaysData().then(response=>{
       console.log(response)
       setTodaysData(response)
