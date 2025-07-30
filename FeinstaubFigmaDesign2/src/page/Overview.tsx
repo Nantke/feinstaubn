@@ -7,7 +7,7 @@ import Description from "./components/Description";
 import CircleIcon from "./components/CircleIcon";
 
 const Overview = () => {
-    const [todaysData, setTodaysData] = useState([{"pm25": 0, "index":"", "description":""}])
+    const [todaysData, setTodaysData] = useState([{"pm25": 0, "index":"Sehr gut", "description":""}])
     const [yesterdaysData, setYesterdaysData] = useState([{"pm25": 0, "index":"", "description":""}])
     const [prognoseData, setPrognoseData] = useState([{"pm25": 0, "index":"", "description":""}])
 

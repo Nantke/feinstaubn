@@ -7,7 +7,6 @@ type CircleIconProps = {
 const CircleIcon: React.FC<CircleIconProps> = ({ color }) => {
     return (
         <div style={{...styles.circle,backgroundImage:`url(/${color}.png`}}>
-
         </div>
     );
 };
