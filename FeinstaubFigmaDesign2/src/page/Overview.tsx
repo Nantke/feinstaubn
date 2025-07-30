@@ -16,7 +16,6 @@ const Overview = () => {
         getTodaysData().then(response=>{
             console.log(response)
             setTodaysData(response)
-            console.log("Index:"+(todaysData[0]))
 
         })
 
@@ -41,7 +40,7 @@ const Overview = () => {
             <div style={{padding: '0 16px '}}>
                 <div style={styles.card}>
                     <span style={styles.info}>Heute, {todaysData[1]?.todayDE}</span><br/>
-                    <CircleIcon color={(todaysData[0].index)}/>
+                    <CircleIcon color={(todaysData[0]?.index)}/>
                 </div>
             </div>
         </div>
