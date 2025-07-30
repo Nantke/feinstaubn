@@ -15,6 +15,7 @@ const Overview = () => {
 
         getTodaysData().then(response=>{
             console.log(response)
+            console.log((todaysData[0].index).trim())
             setTodaysData(response)
         })
 
