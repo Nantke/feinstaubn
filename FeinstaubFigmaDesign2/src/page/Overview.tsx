@@ -41,7 +41,7 @@ const Overview = () => {
             <div style={{padding: '0 16px '}}>
                 <div style={styles.card}>
                     <span style={styles.info}>Heute, {todaysData[1]?.todayDE}</span><br/>
-                    <CircleIcon color={(todaysData[0].index).trim()}/>
+                    <CircleIcon color={(todaysData[0].index)}/>
                 </div>
             </div>
         </div>
