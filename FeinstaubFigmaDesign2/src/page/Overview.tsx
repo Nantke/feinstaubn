@@ -7,7 +7,7 @@ import Description from "./components/Description";
 import CircleIcon from "./components/CircleIcon";
 
 const Overview = () => {
-    const [todaysData, setTodaysData] = useState([{"pm25": 0, "index":"Sehr gut", "description":""}])
+    const [todaysData, setTodaysData] = useState([{"pm25": 0, "index":"", "description":""}])
     const [yesterdaysData, setYesterdaysData] = useState([{"pm25": 0, "index":"", "description":""}])
     const [prognoseData, setPrognoseData] = useState([{"pm25": 0, "index":"", "description":""}])
 
@@ -40,7 +40,7 @@ const Overview = () => {
             <div style={{padding: '0 16px '}}>
                 <div style={styles.card}>
                     <span style={styles.info}>Heute, {todaysData[1]?.todayDE}</span><br/>
-                    <CircleIcon color={(todaysData[0]?.index)}/>
+                    <CircleIcon color={todaysData[0]?.index}/>
                 </div>
             </div>
         </div>
