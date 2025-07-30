@@ -3,13 +3,17 @@
   "builds": [
     {
       "src": "package.json",
-      "use": "@vercel/static-build",
-      "config": { "distDir": "dist" }
+      "use": "@vercel/static-build"
     }
   ],
+
   "rewrites": [
     {
-      "source": "/api/:path*",
+      "source": "/api/index",
+      "destination": "/api/index.js"
+    },
+    {
+      "source": "/api/umwelt/:path*",
       "destination": "https://www.umweltbundesamt.de/api/:path*"
     },
     {

@@ -1,10 +1,10 @@
 import React from 'react';
-import Page from './page';
+import Overview from "./page/Overview";
 
 export default function App() {
   return (
     <div>
-      <Page />
+      <Overview />
     </div>
   );
 }

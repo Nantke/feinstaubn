@@ -28,7 +28,6 @@ export default function Main() {
 
   }, []);
 
-  const imageUrl = '../assets/images/gelberKreis.png';
 
   return (
     <div className="main-container">

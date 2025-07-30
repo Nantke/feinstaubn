@@ -252,7 +252,7 @@ button {
 }
 
 .Gut {
-  background: url(../assets/images/petrolKreis.png)
+  background: url(../../public/Gut.png)
   no-repeat center;
   background-size: cover;
   z-index: 36;
@@ -262,7 +262,7 @@ button {
 }
 
 .Schlecht {
-  background: url(../assets/images/roterKreis.png)
+  background: url(../../public/Schlecht.png)
   no-repeat center;
   background-size: cover;
   z-index: 36;
@@ -272,7 +272,7 @@ button {
 }
 
 .Mäßig {
-  background: url(../assets/images/gelberKreis.png)
+  background: url(../../public/Mäßig.png)
   no-repeat center;
   background-size: cover;
   z-index: 36;
@@ -282,7 +282,7 @@ button {
 }
 
 .Sehr.gut {
-  background: url(../assets/images/grunerKreis.png)
+  background: url(../../public/Sehr.gut.png)
   no-repeat center;
   background-size: cover;
   z-index: 36;
@@ -292,7 +292,7 @@ button {
 }
 
 .Sehr.schlecht {
-  background: url(../assets/images/dunkelRoterKreis.png)
+  background: url(../../public/Sehr.schlecht.png)
   no-repeat center;
   background-size: cover;
   z-index: 36;
@@ -380,7 +380,7 @@ button {
   height: 32px;
   top: 73px;
   left: 20px;
-  background: url(../assets/images/cyanKreis.png)
+  background: url(../../public/cyanKreis.png)
     no-repeat center;
   background-size: cover;
   z-index: 39;
@@ -409,7 +409,7 @@ button {
   height: 32px;
   top: 115px;
   left: 21px;
-  background: url(../assets/images/roterKreis.png)
+  background: url(../../public/Schlecht.png)
     no-repeat center;
   background-size: cover;
   z-index: 38;
@@ -438,7 +438,7 @@ button {
   height: 32px;
   top: 157px;
   left: 21px;
-  background: url(../assets/images/cyanKreis.png)
+  background: url(../../public/cyanKreis.png)
     no-repeat center;
   background-size: cover;
   z-index: 37;
@@ -490,7 +490,7 @@ button {
   height: 32px;
   top: 0;
   left: 0;
-  background: url(../assets/images/dunkelRoterKreis.png)
+  background: url(../../public/Sehr.schlecht.png)
     no-repeat center;
   background-size: cover;
   z-index: 22;
@@ -542,7 +542,7 @@ button {
   height: 32px;
   top: 0;
   left: 0;
-  background: url(../assets/images/roterKreis.png)
+  background: url(../../public/Schlecht.png)
     no-repeat center;
   background-size: cover;
   z-index: 24;
@@ -594,7 +594,7 @@ button {
   height: 32px;
   top: 0;
   left: 0;
-  background: url(../assets/images/gelberKreis.png)
+  background: url(../../public/Mäßig.png)
     no-repeat center;
   background-size: cover;
   z-index: 25;
@@ -646,7 +646,7 @@ button {
   height: 32px;
   top: 0;
   left: 0;
-  background: url(../assets/images/petrolKreis.png)
+  background: url(../../public/Gut.png)
     no-repeat center;
   background-size: cover;
   z-index: 26;
@@ -698,7 +698,7 @@ button {
   height: 32px;
   top: 0;
   left: 0;
-  background: url(../assets/images/grunerKreis.png)
+  background: url(../../public/Sehr.gut.png)
     no-repeat center;
   background-size: cover;
   z-index: 23;
