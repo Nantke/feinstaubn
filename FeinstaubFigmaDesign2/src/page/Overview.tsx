@@ -16,7 +16,7 @@ const Overview = () => {
         getTodaysData().then(response=>{
             console.log(response)
             setTodaysData(response)
-            console.log("Index:"+(todaysData[0].index))
+            console.log("Index:"+(todaysData[0]))
 
         })
 
